@@ -19,21 +19,31 @@ module.exports = {
 			  'chicago': "url('./src/assets/image/jpg/chicago.jpg')",
 			  'europe': "url('./src/assets/image/jpg/europe.jpg')",
 			  'iceland': "url('./src/assets/image/jpg/iceland.jpg')",
+        'Shape': "url('./src/assets/icons/Shape.png')",
       },
       backgroundColor: (theme) => ({
         ...theme("colors"),
         primary: "#CC2D4A",
         secondary: "#8FA206",
         terciary: "#61AEC9",
+        black: "#000000",
+        white: "#ffffff",
       }),
       textColor: {
         primary: "#CC2D4A",
         secondary: "#8FA206",
         terciary: "#61AEC9",
+        fblack: "#000000",
+        fwhite: "#ffffff",
       },
       fontFamily: {
         Montserrat: ["Montserrat", "sans-serif"],
       },
+      dropShadow: {
+        '3xl': '0 2px 7px rgba(0, 0, 0, 0.25)',
+        '2xl': '0 3px 3px rgba(0, 0, 0, 0.25)',
+      },
+      
     },
   },
   plugins: [],

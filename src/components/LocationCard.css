@@ -1,0 +1,6 @@
+.containerWhite {
+    @apply bg-white w-[155px] h-48  rounded-lg drop-shadow-2xl;
+}
+
+
+

@@ -1,5 +1,6 @@
 import './App.css';
 import Home from './Home';
+import Recomendation from './Recomendation';
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
       <div className='tab-bar'></div>
       <section className='w-full h-screen'>
         <Home />
-        <div className='recomendations'></div>
+        <Recomendation />
         <div className='trending'></div>
       </section>
       <footer></footer>
