@@ -4,7 +4,7 @@ import Lupa from '../components/svg/Lupa';
 
 function Home () {
     return (
-        <div className='relative w-full h-[487px] overflow-hidden'>
+        <div id='home' className='relative w-full h-[487px] overflow-hidden'>
             <div className='absolute top-0 w-full h-full'>
             <img src={sanFrancisco} alt="San Francisco" />
             </div>

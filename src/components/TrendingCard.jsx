@@ -7,7 +7,7 @@ function TrendingCard ({image, city, message}) {
             </div>
             <div>
                 <h3 className='absolute mt-12 ml-6 text-white font-Montserrat font-extrabold text-[25px]'>{`${city}`}</h3>
-                <div className="absolute w-[175px] mt-[90px] ml-6">
+                <div className="absolute w-[175px] mt-[110px] ml-6">
                     <p className='text-left text-white font-Montserrat font-[500] text-base'>{`${message}`}</p>
                 </div>
             </div>

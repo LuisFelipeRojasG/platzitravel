@@ -36,6 +36,9 @@ module.exports = {
         fblack: "#000000",
         fwhite: "#ffffff",
       },
+      borderColor: {
+        primary: "#CC2D4A",
+      },
       fontFamily: {
         Montserrat: ["Montserrat", "sans-serif"],
       },
