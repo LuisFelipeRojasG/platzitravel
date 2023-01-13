@@ -5,13 +5,13 @@ function About () {
     return (
         <div className="w-[335px] h-auto">
             <p className="h1">About Us</p>
-            <div className="ml-7 text-left">
-                <a className="h2 block" href="*">Investors</a>
-                <a className="h2 block" href="*">Jobs</a>
-                <a className="h2 block" href="*">Privacy Policy</a>
-                <a className="h2 block" href="*">Terms and Conditions</a>
-                <a className="h2 block" href="*">Platzi Travel, inc</a>
-                <a className="h2 block" href="*">Follow Us</a>
+            <div className="ml-7 text-left text-black">
+                <a className="h2 block lg:text-xl" href="*">Investors</a>
+                <a className="h2 block lg:text-xl" href="*">Jobs</a>
+                <a className="h2 block lg:text-xl" href="*">Privacy Policy</a>
+                <a className="h2 block lg:text-xl" href="*">Terms and Conditions</a>
+                <a className="h2 block lg:text-xl" href="*">Platzi Travel, inc</a>
+                <a className="h2 block lg:text-xl" href="*">Follow Us</a>
             </div>
             <div className='flex'>
                 <a href="https://twitter.com/?lang=es">

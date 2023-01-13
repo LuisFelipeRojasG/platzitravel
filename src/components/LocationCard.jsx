@@ -15,7 +15,7 @@ function LocationCard ({image, city, message, bgIndex}) {
     return (
         <div className={`container ${bgColor ? 'containerBackGreen' : 'containerBackWhite'}`}>
             <div>
-                <img className='h-28 rounded-t-lg' src={image} alt="" />
+                <img className='w-full h-28 rounded-t-lg' src={image} alt="" />
             </div>
             <div>
                 <h3 className='mt-3 ml-[10px]'>{`${city}`}</h3>
