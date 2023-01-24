@@ -1,0 +1,13 @@
+.activeLink{
+    @apply bg-gray-400 fill-primary;
+    @layer active;
+}
+
+.noActiveLink{
+    @apply bg-white fill-gray-400;
+    @layer active;
+}
+
+.navItems {
+    @apply relative flex justify-center items-center w-[60px] h-[60px] rounded-full;
+}

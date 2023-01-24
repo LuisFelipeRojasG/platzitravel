@@ -4,9 +4,9 @@
 
 
 .h1 {
-    @apply text-left text-2xl font-semibold mt-[29px] ml-[19px] mb-[25px] lg:text-[38px];
+    @apply text-left text-2xl font-semibold mt-[29px] ml-[19px] mb-[25px] lg:text-[38px] lg:mb-12;
 }
 
 .h2 {
-    @apply text-base font-semibold mb-3 lg:text-[30px];
+    @apply text-base font-semibold mb-3 lg:text-[30px] lg:mb-8;
 }

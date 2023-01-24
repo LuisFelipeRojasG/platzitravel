@@ -6,7 +6,7 @@ import { TrendingCard, ChicagoCard, LosAngelesCard, MiamiCard, BaliCard} from '.
 function Trending () {
     return (
         <div id='trending' className='w-[390px] h-auto flex flex-col aling-center lg:w-screen'>
-            <p className='h1'>Trending Stays</p>
+            <p className='h1 lg:mb-14'>Trending Stays</p>
             <div className='lg:hidden'>
                 {trendingMobile.map((element, index) => (
                     <TrendingCard 

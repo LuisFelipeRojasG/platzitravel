@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{html,js,jsx,ts,tsx}", "./public/*.{html,js,jsx,ts,tsx}"],
+  darkMode: 'class',
   theme: {
     extend: {
       backgroundImage: {
@@ -39,6 +40,9 @@ module.exports = {
       borderColor: {
         primary: "#CC2D4A",
       },
+      ringColor: {
+        primary: "#CC2D4A",
+      },
       fontFamily: {
         Montserrat: ["Montserrat", "sans-serif"],
       },
@@ -46,7 +50,11 @@ module.exports = {
         '3xl': '0 2px 7px rgba(0, 0, 0, 0.25)',
         '2xl': '0 3px 3px rgba(0, 0, 0, 0.25)',
       },
-      
+      fill: {
+        primary: "#CC2D4A",
+        black: "#000000",
+        white: "#ffffff",
+      },
     },
   },
   plugins: [],

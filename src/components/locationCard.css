@@ -1,0 +1,11 @@
+.container {
+    @apply flex flex-col text-left w-[155px] h-48 ml-[9px] mr-[9px] rounded-lg drop-shadow-2xl font-bold text-sm flex-none lg:mr-[25px] lg:h-[390px] lg:w-72;
+}
+
+.containerBackGreen {
+    @apply bg-secondary text-white dark:bg-gray-700;
+}
+
+.containerBackWhite {
+    @apply bg-white text-tertiary dark:bg-gray-800 dark:text-white;
+}

@@ -4,7 +4,7 @@ function TrendingCard ({image, city, message}) {
     return (
         <div className="flex relative w-[336px] h-[405px] ml-[27px] mb-10">
             <div>
-                <img className="absolute rounded-2xl" src={image} alt="" />
+                <img className="absolute rounded-3xl" src={image} alt="" />
             </div>
             <div>
                 <h3 className='absolute mt-12 ml-6 text-white font-Montserrat font-extrabold text-[25px]'>{`${city}`}</h3>
@@ -20,7 +20,7 @@ function ChicagoCard () {
     return (
         <div className="lg:w-[1314px] lg:h-[654px] row-span-3 col-span-5 ">
             <div>
-                <img className="absolute rounded-2xl" src={trendingDesktop[0].image} alt="" />
+                <img className="absolute rounded-3xl" src={trendingDesktop[0].image} alt="" />
             </div>
             <div className='absolute w-auto h-auto mt-8'>
                 <h3 className='text-white font-Montserrat font-extrabold text-[35px] ml-[1090px]'>{`${trendingDesktop[0].city}`}</h3>
@@ -36,7 +36,7 @@ function LosAngelesCard () {
     return (
         <div className="w-[512px] h-[832px] row-span-4 col-span-2">
             <div>
-                <img className="absolute rounded-2xl" src={trendingDesktop[1].image} alt="" />
+                <img className="absolute rounded-3xl" src={trendingDesktop[1].image} alt="" />
             </div>
             <div className='absolute w-auto h-auto mt-8'>
                 <h3 className='text-white font-Montserrat font-extrabold text-[35px] ml-[230px]'>{`${trendingDesktop[1].city}`}</h3>
@@ -52,7 +52,7 @@ function MiamiCard () {
     return (
         <div className="w-[772px] h-[403px] row-span-2 col-span-3">
             <div>
-                <img className="absolute rounded-2xl" src={trendingDesktop[2].image} alt="" />
+                <img className="absolute rounded-3xl" src={trendingDesktop[2].image} alt="" />
             </div>
             <div className='absolute w-auto h-auto mt-8'>
                 <h3 className='text-white font-Montserrat font-extrabold text-[35px] ml-[600px]'>{`${trendingDesktop[2].city}`}</h3>
@@ -68,7 +68,7 @@ function BaliCard () {
     return (
         <div className="w-[772px] h-[403px] row-span-2 col-span-3">
             <div>
-                <img className="absolute rounded-2xl" src={trendingDesktop[3].image} alt="" />
+                <img className="absolute rounded-3xl" src={trendingDesktop[3].image} alt="" />
             </div>
             <div className='absolute w-auto h-auto mt-12'>
                 <h3 className='text-white font-Montserrat font-extrabold text-[35px] ml-[630px]'>{`${trendingDesktop[3].city}`}</h3>
