@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/platzitravel/static/css/main.ffaafd2f.css",
+    "main.js": "/platzitravel/static/js/main.7e989300.js",
+    "static/media/sanFrancisco.jpg": "/platzitravel/static/media/sanFrancisco.7bf3d5b0c1deb5ee167c.jpg",
+    "static/media/sanFranciscoDesktop.jpg": "/platzitravel/static/media/sanFranciscoDesktop.4a5ecbcb3da5c7b91b91.jpg",
+    "static/media/iceland.jpg": "/platzitravel/static/media/iceland.8ebd07c95769b5e87b28.jpg",
+    "static/media/sydney.jpg": "/platzitravel/static/media/sydney.5a1b573c7d4b439a07b3.jpg",
+    "static/media/chicagoDesktop.jpg": "/platzitravel/static/media/chicagoDesktop.800e7eb0bcc9adbea490.jpg",
+    "static/media/baliDesktop.jpg": "/platzitravel/static/media/baliDesktop.265e9efc0b1ee0423c76.jpg",
+    "static/media/losangelesDesktop.jpg": "/platzitravel/static/media/losangelesDesktop.8d13475ee52a2f8ce3c1.jpg",
+    "static/media/miamiDesktop.jpg": "/platzitravel/static/media/miamiDesktop.359432005e1fa0ac53af.jpg",
+    "static/media/bali.jpg": "/platzitravel/static/media/bali.799d448693904399c601.jpg",
+    "static/media/losangeles.jpg": "/platzitravel/static/media/losangeles.2e6a50a11d6844655003.jpg",
+    "static/media/miami.jpg": "/platzitravel/static/media/miami.b4a6a7220932c4fa71c6.jpg",
+    "static/media/chicago.jpg": "/platzitravel/static/media/chicago.530cba6fe3e04b829198.jpg",
+    "static/media/switzerland.jpg": "/platzitravel/static/media/switzerland.90e4eb5e154c42bf3983.jpg",
+    "static/media/norway.jpg": "/platzitravel/static/media/norway.fc83a69159261b5a3767.jpg",
+    "static/media/yosemite.jpg": "/platzitravel/static/media/yosemite.0c932a6bead2aa2e8320.jpg",
+    "static/media/new_york.jpg": "/platzitravel/static/media/new_york.f008f0210376f0b76ab9.jpg",
+    "static/media/seattle.jpg": "/platzitravel/static/media/seattle.6d620466c5d9792df7b6.jpg",
+    "static/media/instagram1.svg": "/platzitravel/static/media/instagram1.e905c793b5d30397b8b02c4706c50424.svg",
+    "static/media/twitter1.svg": "/platzitravel/static/media/twitter1.7fe720a95696a51b586ef96106a6ed7f.svg",
+    "static/media/profile.svg": "/platzitravel/static/media/profile.1dd841a2bbd48183c898d459f92d722b.svg",
+    "static/media/lupa.svg": "/platzitravel/static/media/lupa.5c890239604e68f71dd236a82e2d5ca7.svg",
+    "static/media/luna.svg": "/platzitravel/static/media/luna.5378705abeaeb525aea01b6dcbc5683f.svg",
+    "index.html": "/platzitravel/index.html",
+    "main.ffaafd2f.css.map": "/platzitravel/static/css/main.ffaafd2f.css.map",
+    "main.7e989300.js.map": "/platzitravel/static/js/main.7e989300.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffaafd2f.css",
+    "static/js/main.7e989300.js"
+  ]
+}
