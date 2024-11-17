@@ -1,13 +1,14 @@
+import React from 'react';
 import sanFrancisco from '../assets/image/jpg/sanFrancisco.jpg';
-import Luna from '../components/svg/Luna';
 import Lupa from '../components/svg/Lupa';
-import Sol from '../components/svg/Sol';
+import luna from '../assets/icons/luna.svg';
+import sol from '../assets/icons/sol.svg';
 import sanFranciscoDesktop from '../assets/image/jpg/sanFranciscoDesktop.jpg'
 
 function Home () {
 
     const htmlElement = document.querySelector("html");
-    const cambioSol = document.querySelector("#sol");
+    const [mode, setMode] = React.useState(luna);
 
     return (
         <div id='home' className='relative w-full h-[487px] lg:h-[600px] overflow-hidden'>
@@ -16,26 +17,18 @@ function Home () {
                 <img src={sanFranciscoDesktop} alt="San Francisco" />
             </div>
             <div className='relative w-full h-full flex flex-col  items-center'>
-                <button className='absolute top-[21px] right-6 w-14 h-8 bg-white rounded-full lg:hidden' 
-                    onClick={() => {
-                        
-                            if(htmlElement.classList.contains('dark')) {
-                                htmlElement.classList.remove('dark')
-                                cambioSol.classList.add('hidden')
-                            } else {
-                                htmlElement.classList.add('dark')
-                                cambioSol.classList.remove('hidden')
-                            }
-                        
+                <button className='absolute flex justify-center items-center top-[21px] right-6 w-14 h-8 bg-white rounded-full lg:hidden' 
+                     onClick={() => {
+                        if(htmlElement.classList.contains('dark')) {
+                            htmlElement.classList.remove('dark')
+                            setMode(luna)
+                        } else {
+                            htmlElement.classList.add('dark')
+                            setMode(sol)
+                        }
                     }}>
-
+                        <img src={mode} alt="Mode" />
                 </button>
-                <div id='luna' className='absolute top-[28px] right-11 lg:hidden dark:hidden'>
-                    <Luna />
-                </div>
-                <div id='sol' className='absolute top-[28px] right-11 lg:hidden'>
-                    <Sol />
-                </div>
                 <input className='absolute top-[73px] w-[344px] outline-none p-3 rounded-full drop-shadow-3xl text-center text-fblack font-Montserrat transition duration-300 focus-within:shadow-sm focus:ring focus:ring-primary lg:hidden' type="search" placeholder='San Francisco' />
                 <div className='absolute top-[85px] left-[110px] lg:hidden'>
                     <Lupa 

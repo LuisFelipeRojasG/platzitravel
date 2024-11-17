@@ -8,7 +8,7 @@ import NavBar from './NavBar';
 
 function App() {
   return (
-    <div className="App text-primary w-[390px] h-[3620px] lg:w-full lg:h-[3515px] dark:bg-gray-900 dark:text-white">
+    <div className="App text-primary w-screen h-[3600px] lg:w-full lg:h-auto dark:bg-gray-900 dark:text-white">
       <NavBar />
       <section className='w-full h-auto overflow-hidden lg:mt-[70px]'>
         <Home />
