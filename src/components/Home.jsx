@@ -1,9 +1,9 @@
 import React from 'react';
-import sanFrancisco from '../assets/image/jpg/sanFrancisco.jpg';
+import sanFrancisco from '../assets/image/sanFrancisco.jpg';
 import Lupa from '../components/svg/Lupa';
 import luna from '../assets/icons/luna.svg';
 import sol from '../assets/icons/sol.svg';
-import sanFranciscoDesktop from '../assets/image/jpg/sanFranciscoDesktop.jpg'
+import sanFranciscoDesktop from '../assets/image/sanFranciscoDesktop.jpg'
 
 function Home () {
 

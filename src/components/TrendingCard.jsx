@@ -6,7 +6,7 @@ function TrendingCard ({image, city, message}) {
             <img className="absolute rounded-3xl" src={image} alt={`${city}`} />
             <header>
                 <h3 className='absolute mt-12 ml-6 text-white font-Montserrat font-extrabold text-[25px]'>{`${city}`}</h3>
-                <p className='text-left text-white font-Montserrat font-[500] text-base'>{`${message}`}</p>
+                <p className='hidden text-left text-white font-Montserrat font-[500] text-base'>{`${message}`}</p>
             </header>
         </article>
     );
