@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/platzitravel/static/css/main.e5a44377.css",
-    "main.js": "/platzitravel/static/js/main.45cd969d.js",
+    "main.css": "/platzitravel/static/css/main.f34e86de.css",
+    "main.js": "/platzitravel/static/js/main.17a474af.js",
     "static/media/sanFrancisco.jpg": "/platzitravel/static/media/sanFrancisco.7bf3d5b0c1deb5ee167c.jpg",
     "static/media/sanFranciscoDesktop.jpg": "/platzitravel/static/media/sanFranciscoDesktop.4a5ecbcb3da5c7b91b91.jpg",
     "static/media/iceland.jpg": "/platzitravel/static/media/iceland.8ebd07c95769b5e87b28.jpg",
@@ -26,11 +26,11 @@
     "static/media/luna.svg": "/platzitravel/static/media/luna.5378705abeaeb525aea01b6dcbc5683f.svg",
     "static/media/sol.svg": "/platzitravel/static/media/sol.6fed8d212bfe8c302e2781f8780dd320.svg",
     "index.html": "/platzitravel/index.html",
-    "main.e5a44377.css.map": "/platzitravel/static/css/main.e5a44377.css.map",
-    "main.45cd969d.js.map": "/platzitravel/static/js/main.45cd969d.js.map"
+    "main.f34e86de.css.map": "/platzitravel/static/css/main.f34e86de.css.map",
+    "main.17a474af.js.map": "/platzitravel/static/js/main.17a474af.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5a44377.css",
-    "static/js/main.45cd969d.js"
+    "static/css/main.f34e86de.css",
+    "static/js/main.17a474af.js"
   ]
 }
