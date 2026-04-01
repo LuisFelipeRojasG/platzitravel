@@ -1,14 +1,11 @@
 import React from 'react';
+import useDarkMode from '../hooks/useDarkMode';
 import sanFrancisco from '../assets/image/sanFrancisco.jpg';
 import Lupa from '../components/svg/Lupa';
-import luna from '../assets/icons/luna.svg';
-import sol from '../assets/icons/sol.svg';
 import sanFranciscoDesktop from '../assets/image/sanFranciscoDesktop.jpg'
 
 function Home () {
-
-    const htmlElement = document.querySelector("html");
-    const [mode, setMode] = React.useState(luna);
+    const [mode, toggleMode] = useDarkMode();
 
     return (
         <div id='home' className='relative w-full h-[487px] lg:h-[600px] overflow-hidden'>
@@ -17,19 +14,13 @@ function Home () {
                 <img src={sanFranciscoDesktop} alt="San Francisco" />
             </div>
             <div className='relative w-full h-full flex flex-col  items-center'>
-                <button className='absolute flex justify-center items-center top-[21px] right-6 w-14 h-8 bg-white rounded-full lg:hidden' 
-                     onClick={() => {
-                        if(htmlElement.classList.contains('dark')) {
-                            htmlElement.classList.remove('dark')
-                            setMode(luna)
-                        } else {
-                            htmlElement.classList.add('dark')
-                            setMode(sol)
-                        }
-                    }}>
-                        <img src={mode} alt="Mode" />
+<button className='absolute flex justify-center items-center top-[21px] right-6 w-14 h-8 bg-white rounded-full lg:hidden' 
+                     aria-label="Toggle dark mode"
+                     onClick={toggleMode}>
+                         <img src={mode} alt="Dark mode icon" />
                 </button>
-                <input className='absolute top-[73px] w-[344px] outline-none p-3 rounded-full drop-shadow-3xl text-center text-fblack font-Montserrat transition duration-300 focus-within:shadow-sm focus:ring focus:ring-primary lg:hidden' type="search" placeholder='San Francisco' />
+                <label htmlFor="search-input" className="sr-only">Search location</label>
+                <input id="search-input" className='absolute top-[73px] w-[344px] outline-none p-3 rounded-full drop-shadow-3xl text-center text-fblack font-Montserrat transition duration-300 focus-within:shadow-sm focus:ring focus:ring-primary lg:hidden' type="search" placeholder='San Francisco' aria-label="Search location" />
                 <div className='absolute top-[85px] left-[110px] lg:hidden'>
                     <Lupa 
                         ancho='20'
